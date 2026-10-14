@@ -1,0 +1,18 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and processed data
+Raw/
+Processed/
+*.parquet
+*.csv
+
+# Operating System
+.DS_Store
+Thumbs.db
