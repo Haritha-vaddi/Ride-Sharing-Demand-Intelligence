@@ -1,5 +1,4 @@
-
-# Ride-Sharing Demand & Revenue Intelligence
+# 🚕 Ride-Sharing Demand & Revenue Intelligence
 
 ### NYC Yellow Taxi Trip Data | August 2026
 
@@ -163,7 +162,7 @@ Developed a **three-page Power BI report** using DAX measures and interactive vi
 - Trips by Hour
 - Revenue by Hour
 
-![Dashboard 1 — Demand & Revenue](Dashboard/Dashboard-1.png)
+<img src="Dashboard/Dashboard-1.png" alt="NYC Taxi Demand and Revenue Dashboard" width="650">
 
 ### Dashboard 2 — Location-Based Revenue Intelligence
 
@@ -174,7 +173,7 @@ Developed a **three-page Power BI report** using DAX measures and interactive vi
 
 **Key Finding:** Manhattan leads in total charges, while JFK Airport ranks first among pickup zones.
 
-![Dashboard 2 — Location Intelligence](Dashboard/Dashboard-2.png)
+<img src="Dashboard/Dashboard-2.png" alt="Location-Based Revenue Intelligence Dashboard" width="650">
 
 ### Dashboard 3 — Surge Pricing Impact
 
@@ -186,7 +185,7 @@ Developed a **three-page Power BI report** using DAX measures and interactive vi
 **Visualization:**
 - Original Revenue vs Simulated Revenue by Hour
 
-![Dashboard 3 — Surge Pricing](Dashboard/Dashboard-3.png)
+<img src="Dashboard/Dashboard-3.png" alt="Surge Pricing Impact Dashboard" width="650">
 
 *The complete Power BI `.pbix` report is stored separately due to its file size.*
 
@@ -230,6 +229,7 @@ Ride-Sharing-Demand-Intelligence/
 ## ▶️ How to Reproduce
 
 1. Download the official **August 2026 Yellow Taxi Parquet dataset** and taxi zone lookup CSV using the links above.
+
 2. Install the Python dependencies:
 
    ```bash
@@ -240,8 +240,11 @@ Ride-Sharing-Demand-Intelligence/
    - `01_data_cleaning.ipynb`
    - `02_eda_analysis_using_SQL_&_Python.ipynb`
    - `03_regression.ipynb`
+
 4. Export `final_yellow_tripdata_2026-08.csv` from Notebook 02.
+
 5. Import the final CSV and `taxi_zone_lookup.csv` into Power BI.
+
 6. Create the DAX measures and three dashboard pages.
 
 ---
