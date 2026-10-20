@@ -150,6 +150,14 @@ Because actual trip duration is an input, the model estimates completed-trip far
 
 Developed a **three-page Power BI report** using DAX measures and interactive visualizations.
 
+### 📥 Download Complete Power BI Dashboard (.pbix)
+
+**[Download NYC Taxi Power BI Dashboard — PBIX File (Google Drive)](https://drive.google.com/file/d/1v7yE_JFMy3q-M_lVlVeZ6BQTDIAlDR0s/view?usp=sharing)**
+
+The complete Power BI dashboard file is approximately **95 MB** and is hosted on Google Drive because it exceeds GitHub's browser upload limit.
+
+**File format:** `.pbix` — Open using Microsoft Power BI Desktop to explore the interactive report.
+
 ### Dashboard 1 — NYC Taxi Demand, Revenue & Surge Analysis
 
 **KPI Cards:**
@@ -181,8 +189,6 @@ Developed a **three-page Power BI report** using DAX measures and interactive vi
 **Visualization:**
 - Original Revenue vs Simulated Revenue by Hour
 
-*The complete Power BI `.pbix` report is stored separately due to its file size.*
-
 ---
 
 ## 🛠️ Tech Stack
@@ -203,7 +209,7 @@ Developed a **three-page Power BI report** using DAX measures and interactive vi
 
 ## 📁 Project Structure
 
-```
+```text
 Ride-Sharing-Demand-Intelligence/
 ├── Dashboard/
 │   ├── Dashboard-1.png
@@ -218,6 +224,8 @@ Ride-Sharing-Demand-Intelligence/
 └── README.md
 ```
 
+**Power BI `.pbix` file:** Available through the Google Drive link above.
+
 ---
 
 ## ▶️ How to Reproduce
@@ -226,7 +234,7 @@ Ride-Sharing-Demand-Intelligence/
 
 2. Install the Python dependencies:
 
-   ```
+   ```bash
    pip install pandas numpy matplotlib seaborn duckdb scikit-learn pyarrow jupyter
    ```
 
@@ -239,7 +247,7 @@ Ride-Sharing-Demand-Intelligence/
 
 5. Import the final CSV and `taxi_zone_lookup.csv` into Power BI.
 
-6. Create the DAX measures and three dashboard pages.
+6. Create the DAX measures and three dashboard pages, or download the completed `.pbix` file from Google Drive.
 
 ---
 
